@@ -1,0 +1,41 @@
+# -------------------------
+# Terraform
+# -------------------------
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+terraform.tfvars
+crash.log
+
+# -------------------------
+# GCP / Credentials
+# -------------------------
+**/application_default_credentials.json
+**/*credentials*.json
+**/*.key.json
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# -------------------------
+# Airflow / Docker
+# -------------------------
+logs/
+airflow.db
+docker-compose.override.yml
+
+# -------------------------
+# OS / Editor
+# -------------------------
+.DS_Store
+.vscode/
+.idea/
