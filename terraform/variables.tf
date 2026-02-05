@@ -18,3 +18,8 @@ variable "bq_dataset_id" {
   description = "BigQuery dataset ID for weather analytics"
   type        = string
 }
+
+variable "bq_table_id" {
+  description = "BigQuery table name for weather hourly forecasts"
+  type        = string
+}
