@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains an end-to-end data engineering pipeline built on **Google Cloud Platform (GCP)** as part of a take-home assignment for a **Data Engineer (3–3.5 YOE)** role.
+This repository contains an end-to-end data engineering pipeline built on **Google Cloud Platform (GCP)**
 
 The pipeline ingests weather forecast data from a public API, stores raw data in Google Cloud Storage (GCS), transforms it, and loads structured data into BigQuery. Orchestration is handled locally using Dockerized Apache Airflow, and all cloud infrastructure is provisioned using Terraform.
 
